@@ -1,0 +1,7 @@
+version: "3.0"
+services:
+  akka-https-quickstart:
+    build: ./target/docker/stage
+    ports:
+    - 80:8000
+
